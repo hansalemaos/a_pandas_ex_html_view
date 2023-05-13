@@ -6,7 +6,7 @@ import regex
 import pandas as pd
 from tempfile import TemporaryDirectory
 from a_pandas_ex_plode_tool import unstacked_df_back_to_multiindex, _unstack_df
-from aa_pandas_ex_df_to_string import ds_to_string
+from a_pandas_ex_df_to_string import ds_to_string
 
 _tmp_dict_pd = TemporaryDirectory()
 
